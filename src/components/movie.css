@@ -4,9 +4,10 @@
   font-weight: 300;
   padding: 20px;
   border-radius: 5px;
-  color: #adaeb9;
+  color: #2c2c2c;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  text-decoration: underline #fff;
 }
 
 .movies .movie a {
@@ -30,13 +31,17 @@
 .movie .movie__title,
 .movie .movie__year {
   margin: 0;
-  font-weight: 300;
 }
 
 .movie .movie__title {
   margin-bottom: 5px;
   font-size: 24px;
+  font-weight: bold;
   color: #2c2c2c;
+}
+
+.movie .movie__year {
+  font-weight: bold;
 }
 
 .movie .movie__genres {
@@ -46,10 +51,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: 5px 0px;
+  font-size: 20px;
 }
 
 .movie__genres li,
 .movie .movie__year {
   margin-right: 10px;
   font-size: 14px;
+}
+
+.movie .movie__summary {
+  color: #000;
 }
